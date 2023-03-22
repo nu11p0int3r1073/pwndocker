@@ -7,3 +7,5 @@ services:
             - SYS_PTRACE
         ports:
             - "23946:23946"
+        volumes:
+            - /home/kali/htb/:/ctf/work/htb/
