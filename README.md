@@ -5,7 +5,7 @@ A docker environment for pwn in ctf based on **phusion/baseimage:focal-1.2.0**, 
 ### Usage
 
 	docker-compose up -d
-	docker exec -it pwn_test /bin/bash
+	docker exec -it pwn /bin/bash
 
 
 ### included software
