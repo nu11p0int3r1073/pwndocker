@@ -2,7 +2,7 @@ version: '3'
 services:
     pwn:
         container_name: pwn
-        image: skysider/pwndocker
+        image: j0k3r10101/pwn
         cap_add:
             - SYS_PTRACE
         ports:
